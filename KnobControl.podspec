@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.license       = "MIT"
   s.author        = { "Morten Ambrosius" => "maa@idealdev.dk" }
 
-  s.source        = { :path => '.' }
+  s.source        = { :git => 'https://github.com/mambrosius/KnobControl.git' :tag => "1.0.0" }
   s.source_files  = "KnobControl"
 
   s.platform      = :ios, "12.0"
